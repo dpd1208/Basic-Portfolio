@@ -16,9 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4aaaa5;
 }
 
-a {
-	text-decoration: none;
-}
 
 h1 {
 	font-size: 2em;
@@ -166,6 +163,7 @@ img {
 	width: 270px;
 	height: 220px;
 }
+/* ^ @ https://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css */
 
 .item-name {
 	position: relative;
@@ -176,6 +174,10 @@ img {
 	color: #ffffff;
 	z-index: 2;
 }
+a {
+	text-decoration:none;
+}
+/* ^ @ https://stackoverflow.com/questions/35303995/webkit-any-link-cannot-override */
 
 /* Contact Page */
 .contact {
@@ -219,6 +221,7 @@ img {
 	padding: 1em 2em;
 	font-size: 1em;
 }
+/* ^ @ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
 
 h2 {
 	font-size: 1.3em;
@@ -246,6 +249,7 @@ ul li:hover {
 	-o-transform: scale(1.1,1.1);
 	transform: scale(1.1,1.1);
 }
+/* ^ @ https://www.w3schools.com/css/css3_2dtransforms.asp */
 
 /* Footer */
 footer {
