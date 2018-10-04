@@ -151,15 +151,20 @@ img.headshot {
 	position: relative;
 	width: 250px;
 	height: 200px;
-	transition: transform .2s ease-out;
+	margin-left: 25px;
+	padding-top: 10px;
 }
 
-.portfolio-item:nth-child(even) {
-	margin-left: 25px;
+img {
+	max-width: 250px;
+	max-height: 200px;
+	padding: 25px;
 }
 
 .portfolio-item:hover {
-	transform: rotate(-4deg) scale(1.1, 1.1);
+	cursor: pointer;
+	width: 270px;
+	height: 220px;
 }
 
 .item-name {
@@ -169,7 +174,7 @@ img.headshot {
 	background-color: #4aaaa5;
 	padding: 1em;
 	color: #ffffff;
-	z-index: 1000;
+	z-index: 2;
 }
 
 /* Contact Page */
