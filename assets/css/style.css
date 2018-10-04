@@ -98,7 +98,6 @@ header .container {
 }
 
 .nav ul li+li {
-	/* See https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/ */
 	border-left: 1px solid #cccccc;
 }
 
@@ -134,17 +133,23 @@ header .container {
 }
 
 img.headshot {
-	float: left;
 	padding: 0 1em 1em 0;
-	width: 200px;
-	height: 200px;
+	width: 140px;
+	height: 125px;
+	display: inline;
+}
+
+#inline-paragraph {
+	display: inline;
+	float: right;
+	width: 80%;
 }
 
 /* Portfolio Page */
 .portfolio-item {
 	display: inline-block;
 	position: relative;
-	width: 270px;
+	width: 250px;
 	height: 200px;
 	transition: transform .2s ease-out;
 }
