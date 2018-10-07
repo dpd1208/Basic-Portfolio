@@ -196,6 +196,7 @@ a {
 
 
 .contact input[type="submit"] {
+	cursor: pointer;
 	width: auto;
 	background-color: #4aaaa5;
 	color: #ffffff;
