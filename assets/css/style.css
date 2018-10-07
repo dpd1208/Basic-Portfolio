@@ -1,6 +1,5 @@
-/* **************************
-HTML Elements 
-************************** */
+/* General Styling */
+
 html {
 	position: relative;
 }
@@ -11,11 +10,10 @@ html, body {
 }
 /* Background pattern from Toptal Subtle Patterns */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaa5;
 }
-
 
 h1 {
 	font-size: 2em;
@@ -25,11 +23,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-/* **************************
-Layout 
-************************** */
-
-/* Header */
+/* Header / Layout */
 header {
 	width: 100%;
 	height: auto;
@@ -90,12 +84,16 @@ header .container {
 	color: #000000;
 }
 
-.nav ul li+li {
+.nav ul li:nth-child(2)  {
+	border-left: 1px solid #cccccc;
+}
+
+.nav ul li:nth-child(3)  {
 	border-left: 1px solid #cccccc;
 }
 
 
-/* Main Content Area */
+/* About Me / Main */
 .content {
 	width: 960px;
 	clear: both;
@@ -138,7 +136,7 @@ img.headshot {
 	width: 80%;
 }
 
-/* Portfolio Page */
+/* Portfolio */
 .portfolio-item {
 	display: inline-block;
 	position: relative;
@@ -174,9 +172,9 @@ a {
 	text-decoration:none;
 }
 
-/* Contact Page */
+/* Contact */
 .contact {
-	width: 540px;
+	width: 95%;
 }
 
 .contact label {
@@ -225,4 +223,9 @@ footer {
 	color: #cccccc;
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
