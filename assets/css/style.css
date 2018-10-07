@@ -78,6 +78,7 @@ header .container {
 
 .nav ul li a:hover {
 	color: #4aaaa5;
+	text-decoration: underline;
 }
 
 .nav ul li a.active {
@@ -153,9 +154,12 @@ img {
 }
 
 .portfolio-item:hover {
-	cursor: pointer;
+	display: inline-block;
+	position: relative;
 	width: 270px;
 	height: 220px;
+	margin-left: 25px;
+	padding-top: 10px;
 }
 /* ^ @ https://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css */
 
